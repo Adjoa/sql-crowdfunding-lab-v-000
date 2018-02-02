@@ -2,7 +2,7 @@ CREATE TABLE projects (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   title TEXT,
   category TEXT,
-  funding_goal REAL,
+  funding_goal INTEGER,
   start_date DATE,
   end_date DATE
 );
@@ -15,7 +15,7 @@ CREATE TABLE users (
 
 CREATE TABLE pledges (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  amount REAL,
+  amount INTEGER,
   user_id INTEGER,
   project_id INTEGER
 );

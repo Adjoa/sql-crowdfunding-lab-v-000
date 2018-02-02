@@ -52,7 +52,7 @@ INSERT INTO pledges (amount, user_id, project_id) VALUES
 (799, 8, 2),
 (330, 8, 4),
 (120, 9, 5),
-(766, 9, 6), 
+(766, 9, 6),
 (870, 10, 7)
 (90, 10, 8),
 (430, 5, 10),
@@ -65,6 +65,3 @@ INSERT INTO pledges (amount, user_id, project_id) VALUES
 (125, 4, 6),
 (900, 5, 5),
 (370, 7, 8);
-
-
-
